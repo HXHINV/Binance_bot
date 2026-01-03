@@ -1,0 +1,23 @@
+import os
+
+# Binance API
+API_KEY = os.getenv("BINANCE_API_KEY", "YOUR_API_KEY")
+API_SECRET = os.getenv("BINANCE_API_SECRET", "YOUR_API_SECRET")
+
+# Trading
+SYMBOL = "PAXGUSDT"
+INTERVAL = "1h"
+
+# EMA
+EMA_SHORT = 12
+EMA_LONG = 26
+
+# Capital
+TRADE_QUANTITY = 0.01  # PAXG
+
+# ML
+LOOKBACK = 50
+MODEL_PATH = "model.h5"
+
+# Risk
+MAX_TRADES_PER_DAY = 5
